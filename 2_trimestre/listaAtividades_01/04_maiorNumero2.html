@@ -4,10 +4,21 @@
 
     //ENTRADA
 
+    const n1 = Number(prompt("Informe um numero"));
+    const n2 = Number(prompt("Informe outro"));
+    const n3 = Number(prompt("Informe outro"));
 
     //PROCESSAMENTO
+    if (n1 > n2 && n1 > n3) {
+        alert(`O numero 1 e maior`)
+    }
 
+    else if (n1 < n2 && n2 > n3) {
+        alert("O numero 2 e maior")
+    }
 
-    //SAÍDA
+    else {
+        alert("O numero 3 e maior")
+    }
 
 </script>

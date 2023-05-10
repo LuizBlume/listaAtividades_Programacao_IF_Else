@@ -3,10 +3,17 @@
     //Peça para o usuário informar o seu ano de nasicmento e calcule se ele já atingiu a maioridade. Apresente o resultado ao final do programa.
 
     //ENTRADA
-
+    const idade = Number(prompt('Insira seu ano de nascimento'));
+    const resultado = (2023 - idade)
 
     //PROCESSAMENTO
+    if (resultado >= 18) {
+        alert('Voce atingiu a maioridade');
+    }
 
+    else {
+        alert('Voce não é maior de idade')
+    }
 
     //SAÍDA
     
